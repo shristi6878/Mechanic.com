@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<link rel="stylesheet" href="login.css">
+	<script>
+		function redirectToHome() {
+			window.location.href = "project.html";
+		}
+	</script>
+</head>
+<body>
+	<form class="login-form">
+		<h2>Login</h2>
+		<label for="username">Username:</label>
+		<input type="text" id="username" name="Shristi Maurya" required>
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="1234" required>
+		<button type="submit" onclick="redirectToHome()">Login</button>
+	</form>
+	<p>Don't have an account? <a href="register.html">Register here</a>.</p>
+	<li><a href="register.html">Register</a></li>
+	<script src="login.js"></script>
+</body>
+</html>
